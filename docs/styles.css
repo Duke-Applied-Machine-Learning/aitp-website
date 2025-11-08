@@ -153,6 +153,14 @@ h2 {
   text-align: left;
   box-sizing: border-box;
 }
+h2 + *,
+h2 + * ~ * {
+  padding-left:  calc(2 * var(--hero-gutter));   /* same 2rem (or whatever you use) */
+  max-width: var(--page-max);
+  margin-left: calc((100% - var(--page-max)) / 2);
+  margin-right: calc((100% - var(--page-max)) / 2);
+  box-sizing: border-box;
+}
 
 /* --- Make normal content (paragraphs, lists) start at the same content gutter --- */
 .quarto-body p,
