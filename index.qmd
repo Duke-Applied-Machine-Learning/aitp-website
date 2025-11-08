@@ -1,18 +1,107 @@
 ---
-title: "Alicia"
-subtitle: "Data Scientist"
-image: logos/rithvik.jpeg
-about: 
-  template: solana
+title: ""
+page-layout: full
+css: styles.css
 ---
 
-A little bit about me and my life.
+::: {.hero}
+::: {.hero-left}
+# AI Training Program  
+<!-- ^ swap title if you want -->
 
-## Education
-
-University of XYZ, City \| Location \| Sept 20XX - June 20XX
-
-## Experience
-
-Workplace \| Job title \| April 20XX - present
+Deep Learning is one of the most highly sought after skills in AI.  
+In this course you will learn the foundations of Deep Learning, understand how to build neural networks, and learn how to lead successful machine learning projects. You will learn about Convolutional networks, RNNs, LSTM, Adam, Dropout, BatchNorm, Xavier/He initialization, and more.  
+<!-- ^ replace paragraph with your own -->
 :::
+
+::: {.hero-right}
+<!-- ===== INSTRUCTOR PHOTOS ===== -->
+<!-- 150×150px works; keep file in /img/ folder -->
+<img src="img/instructor1.jpg" alt="Instructor 1">
+<p class="name">Instructor Name 1</p>
+
+<img src="img/instructor2.jpg" alt="Instructor 2">
+<p class="name">Instructor Name 2</p>
+<!-- add/remove blocks as needed -->
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Course Information
+
+**Lectures**  
+Tuesday, Thursday 1:30–2:50 pm  
+<!-- ^ change times / room -->
+
+**Communication**  
+Piazza (enroll link TBD)  
+<!-- ^ swap for your forum / Slack -->
+
+**Syllabus**  
+[pdf](syllabus.pdf)  
+<!-- ^ drop actual PDF or link -->
+
+**Contact**  
+ai-training@example.com  
+<!-- ^ your course email -->
+
+------------------------------------------------------------------------
+
+## Course Staff
+
+::: {.staff-grid}
+<!-- ===== INSTRUCTOR PROFILES ===== -->
+::: {.person}
+<img src="img/instructor1.jpg" alt="">
+**Prof. A. Example**  
+Professor of Computer Science  
+<!-- 1-sentence bio here -->
+:::
+
+::: {.person}
+<img src="img/instructor2.jpg" alt="">
+**Dr. B. Sample**  
+Senior Lecturer  
+<!-- 1-sentence bio here -->
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Course Assistants
+
+::: {.staff-grid}
+<!-- ===== TA PROFILES ===== -->
+::: {.person}
+<img src="img/ta1.jpg" alt="">
+**John Doe**  
+CS PhD student  
+<!-- 1-sentence bio / specialization -->
+:::
+
+::: {.person}
+<img src="img/ta2.jpg" alt="">
+**Jane Roe**  
+EE PhD student  
+<!-- 1-sentence bio / specialization -->
+:::
+<!-- duplicate block for more TAs -->
+:::
+
+------------------------------------------------------------------------
+
+## Logistics
+
+**Prerequisites**  
+- College calculus, linear algebra, basic probability  
+- Python programming  
+
+**Grading**  
+- Problem sets 40 %  
+- Mid-term quiz 20 %  
+- Final project 40 %  
+
+**Assignments**  
+- Released Thursdays, due the following Thursday 11:59 pm  
+- Late days: 6 total, max 2 per assignment  
