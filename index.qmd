@@ -25,7 +25,6 @@ In this course you will learn the foundations of Deep Learning, understand how t
 <!-- add/remove blocks as needed -->
 :::
 :::
-
 ------------------------------------------------------------------------
 
 ## Course Information

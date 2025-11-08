@@ -65,22 +65,36 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Alicia",
+    "title": "AI Training Program",
     "section": "",
-    "text": "A little bit about me and my life."
+    "text": "Deep Learning is one of the most highly sought after skills in AI.\nIn this course you will learn the foundations of Deep Learning, understand how to build neural networks, and learn how to lead successful machine learning projects. You will learn about Convolutional networks, RNNs, LSTM, Adam, Dropout, BatchNorm, Xavier/He initialization, and more.\n\n\n\n\n\n\n\nInstructor Name 1\n\n\n\nInstructor Name 2"
   },
   {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Alicia",
-    "section": "Education",
-    "text": "Education\nUniversity of XYZ, City | Location | Sept 20XX - June 20XX"
+    "objectID": "index.html#course-information",
+    "href": "index.html#course-information",
+    "title": "AI Training Program",
+    "section": "Course Information",
+    "text": "Course Information\nLectures\nTuesday, Thursday 1:30–2:50 pm\n\nCommunication\nPiazza (enroll link TBD)\n\nSyllabus\npdf\n\nContact\nai-training@example.com"
   },
   {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Alicia",
-    "section": "Experience",
-    "text": "Experience\nWorkplace | Job title | April 20XX - present :::"
+    "objectID": "index.html#course-staff",
+    "href": "index.html#course-staff",
+    "title": "AI Training Program",
+    "section": "Course Staff",
+    "text": "Course Staff\n\n\n\n Prof. A. Example\nProfessor of Computer Science\n\n\n\n Dr. B. Sample\nSenior Lecturer"
+  },
+  {
+    "objectID": "index.html#course-assistants",
+    "href": "index.html#course-assistants",
+    "title": "AI Training Program",
+    "section": "Course Assistants",
+    "text": "Course Assistants\n\n\n\n John Doe\nCS PhD student\n\n\n\n Jane Roe\nEE PhD student"
+  },
+  {
+    "objectID": "index.html#logistics",
+    "href": "index.html#logistics",
+    "title": "AI Training Program",
+    "section": "Logistics",
+    "text": "Logistics\nPrerequisites\n- College calculus, linear algebra, basic probability\n- Python programming\nGrading\n- Problem sets 40 %\n- Mid-term quiz 20 %\n- Final project 40 %\nAssignments\n- Released Thursdays, due the following Thursday 11:59 pm\n- Late days: 6 total, max 2 per assignment"
   }
 ]
