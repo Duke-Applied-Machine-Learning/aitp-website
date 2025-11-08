@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - data
+  render:
+    - "*.qmd"
+
+website:
+  title: "AITP"
+  search: false
+  navbar:
+    logo: logos/daml_logo-2.png
+    logo-alt: DAML logo
+    background: "#8C1515"    # Stanford Cardinal
+    foreground: "#FFFFFF"
+    right:
+      - href: index.qmd
+        text: Home
+      - href: syllabus.qmd
+        text: Syllabus
+      - href: project.qmd
+        text: Projects
+      - href: readings.qmd
+        text: Readings
+      - href: recordings.qmd
+        text: Records
+      - href: faq.qmd
+        text: FAQ
+
+format:
+  html:
+    theme: cosmo
+    mainfont: Lato
+    css: styles.css
+    toc: false

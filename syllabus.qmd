@@ -1,0 +1,136 @@
+---
+title: "AI Training Program"
+subtitle: "Syllabus - Fall 2025"
+fontsize: 12pt
+format: 
+  html: default
+  pdf:
+    mainfont: "Times New Roman"
+    sansfont: "Times New Roman"
+    include-in-header:
+      - text: |
+          \makeatletter
+          \def\maketitle{
+            \begin{center}
+              {\normalfont\huge\@title}
+            \end{center}
+            \vskip 1em
+            \begin{center}
+              {\normalfont\large\@subtitle}
+            \end{center}
+            \vskip 1em
+          }
+          \makeatother
+---
+
+#### Meetings
+
++------------------+-----------------------------+------------------------+
+| Lectures         | Saturdays 2:00pm - 3:00pm   | Social Sciences 139    |
++------------------+-----------------------------+------------------------+
+| Office Hours     | Saturdays 3:00pm - 4:00pm   | Social Sciences 139    |
++------------------+-----------------------------+------------------------+
+| Project Showcase | Saturday, Oct 25, 2pm - 3pm | Wilkinson 139          |
++------------------+-----------------------------+------------------------+
+
+### DAML AI Training Program Fall 2025 Overview
+
+## Overview:
+
+**Duke Applied ML’s AITP (Artificial Intelligence Training Program)** aims to equip undergraduate students interested in data science and machine learning with the necessary theoretical understanding and technical skills to deliver end-to-end projects.
+
+The program will be **quarterly-long** and serve as an introductory overview of core AI concepts –– from data science, machine learning, NLP, computer vision, and LLMs.
+
+The training program also involves a **final project**, referencing the content that you cover through the workshops.
+
+Successful completion of both the workshops and the final project will give Junior Engineers a AITP certification that allows them to work on more advanced projects in DAML as a Senior Engineer.
+
+## **Project:**
+
+A final project (that Junior Engineers propose). For each project, Junior Engineers will work together in groups of 3-4. Each group has 3 milestones to meet for their project before presentations.
+
+There will be in-person work sessions with the team following project assignment (Saturdays 3-4pm, SocSci 139)
+
+## Syllabus
+
+The first four weeks cover foundational machine learning & statistical learning concepts, while the latter half dives into core deep learning architectures & frameworks.
+
+SYLLABUS NOT CURRENTLY UPDATE FOR THIS SEMESTER - WILL BE CHANGED SOON.
+
+## Schedule
+
++--------+------------+------------------------------------+--------------------------------------------------------------------------------+------------+--------------------------------------------+
+| Week   | Date       | Topic                              | Description                                                                    | Recordings | Readings                                   |
++========+============+====================================+================================================================================+============+============================================+
+| 1      | Sat Aug 23 | Welcome!                           | Meet your instructors\                                                         |            |                                            |
+|        |            |                                    | Logistics\                                                                     |            |                                            |
++--------+------------+------------------------------------+--------------------------------------------------------------------------------+------------+--------------------------------------------+
+| 2      | Sat Aug 30 | How Machines Learn                 | Gradient Descent & Loss functions\                                             |            | **Begin research for final project**       |
+|        |            |                                    | Bias–variance tradeoff and structural risk minimization\                       |            |                                            |
+|        |            |                                    | Hyperparameter tuning and CV\                                                  |            |                                            |
+|        |            |                                    | Train–Test Splits\                                                             |            |                                            |
+|        |            |                                    | Model evaluation\                                                              |            |                                            |
+|        |            |                                    | *Examples:* Linear & Logistic Regression, K-Nearest Neighbors, SVM and Kernels |            |                                            |
++--------+------------+------------------------------------+--------------------------------------------------------------------------------+------------+--------------------------------------------+
+| 3      | Sat Sep 06 | Data Science Pipeline              | Cleaning (esp. missing data)\                                                  |            |                                            |
+|        |            |                                    | Encodings and Curse of Dimensionality\                                         |            |                                            |
+|        |            |                                    | Text processing\                                                               |            |                                            |
+|        |            |                                    | Image processing\                                                              |            |                                            |
+|        |            |                                    | EDA methods\                                                                   |            |                                            |
+|        |            |                                    | ROC analysis\                                                                  |            |                                            |
+|        |            |                                    | Pearson\                                                                       |            |                                            |
++--------+------------+------------------------------------+--------------------------------------------------------------------------------+------------+--------------------------------------------+
+| 4      | Sat Sep 13 | Dimension Reduction and Clustering | Linear dimension reduction – PCA\                                              |            | **Project Proposal's Due Sep 14, 11:59PM** |
+|        |            |                                    | Manifold learning, MDS, Isomap\                                                |            |                                            |
+|        |            |                                    | Spectral clustering, t-SNE\                                                    |            |                                            |
+|        |            |                                    | Clustering – k-means & EM                                                      |            |                                            |
++--------+------------+------------------------------------+--------------------------------------------------------------------------------+------------+--------------------------------------------+
+| 5      | Sat Sep 20 | Ensemble Methods and Boosting      | Decision trees & information theory\                                           |            |                                            |
+|        |            |                                    | Random Forest, AdaBoost, XGBoost, GAMs                                         |            |                                            |
++--------+------------+------------------------------------+--------------------------------------------------------------------------------+------------+--------------------------------------------+
+| 6      | Sat Sep 27 | Introduction to Deep Learning      | Neural network architectures – feed-forward, fully connected etc.\             |            | **EDA Analysis Due**                       |
+|        |            |                                    | Nonlinearity – Activation functions & bias\                                    |            |                                            |
+|        |            |                                    | Universal Approximation Theorem\                                               |            |                                            |
+|        |            |                                    | Back-Propagation                                                               |            |                                            |
++--------+------------+------------------------------------+--------------------------------------------------------------------------------+------------+--------------------------------------------+
+| 7      | Sat Oct 04 | Convolutional Neural Networks      | Convolutional Layers & Kernels\                                                |            |                                            |
+|        |            |                                    | Max Pooling\                                                                   |            |                                            |
+|        |            |                                    | Designing CNN architectures\                                                   |            |                                            |
+|        |            |                                    | Applications in Computer Vision                                                |            |                                            |
++--------+------------+------------------------------------+--------------------------------------------------------------------------------+------------+--------------------------------------------+
+| 8      | Sat Oct 11 | Recurrent Neural Networks & LSTMs  | Motivating the RNN architecture\                                               |            | **Model Prototype ideally done**           |
+|        |            |                                    | Vanishing Gradient Problem\                                                    |            |                                            |
+|        |            |                                    | LSTMs – Input, Forget, and Output gates\                                       |            |                                            |
+|        |            |                                    | Applications in NLP                                                            |            |                                            |
++--------+------------+------------------------------------+--------------------------------------------------------------------------------+------------+--------------------------------------------+
+| 9      | Sat Oct 18 | Transformers & LLMs                | Motivating the Transformers architecture\                                      |            | **Final Project + Presentation Due**       |
+|        |            |                                    | Semi-Supervised Learning & Fine-Tuning\                                        |            |                                            |
+|        |            |                                    | BERT & Applications of LLMs\                                                   |            |                                            |
+|        |            |                                    | Logistics                                                                      |            |                                            |
++--------+------------+------------------------------------+--------------------------------------------------------------------------------+------------+--------------------------------------------+
+| 10     | Sat Oct 25 | Project Presentations              | Usual time, Wilkinson 139\                                                     |            |                                            |
++--------+------------+------------------------------------+--------------------------------------------------------------------------------+------------+--------------------------------------------+
+
+## Suggested Pre-Requisites:
+
+We recommend prospective Junior Engineers to have the following programming experiences:
+
+-   CS101 or CS201 concurrently, or taken CS courses in high school (AP or not)
+
+-   Familiarity to code with Python
+
+-   Basic Understanding of Linear Algebra or Multivariable Calculus
+
+## Attendance:
+
+Synchronously attend the workshop each week (in-person preferred, Zoom if they cannot attend the workshop in-person). If Junior Engineers miss a workshop more than 2 times without advance notice or reasonable cause, they’ll be unable to receive full points for completing the program. Reasonable causes for not attending workshops are either a) an immovable conflict during the time of the workshop or b) sickness/serious personal matters.
+
+**Those who have permanent scheduling conflicts during the time of the workshop must notify the division leads** when the training program starts, and can attend workshops asynchronously via recordings.
+
+During any missed workshop, the Junior Engineer must read the slides for that week and fill out the AITP Makeup Form on the technical content which will be a Google Form posted on Slack.
+
+## Notice on Project Contribution:
+
+Contribute meaningfully to their final project Project Managers will check in with their teams every week to monitor progress, talk about blockers, and check in regarding individual performance and participation. If a Junior Engineer is inactive for a sufficient period of time, they will be removed from their project team and AITP for that semester. At the end of the project there will be a peer evaluation of group contribution. Those who do not demonstrate meaningful contribution to the project group will not be able to receive the AITP certification.
+
+Successfully complete final deliverables Final presentation Attend final poster presentation Junior Engineers will present their work to the rest of DAML, faculty members & (potentially) recruiters at a end-of-semester project showcase Attendance is mandatory (unless there’s an immovable conflict) in order to receive credit for the project Pass a final exam Junior Engineers will complete a short final exam on AITP material A weighted score on both the exam and presentation will be calculated to determine placements into DAML Senior Engineer positions. In general, Junior Engineers who consistently attend AITP workshops every week and work 1-2 hours on their team project tend to become Senior Engineers.

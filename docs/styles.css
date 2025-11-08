@@ -1,0 +1,151 @@
+:root {
+  --cardinal: #8C1515; /* Stanford Cardinal red */
+  --site-bg: #ffffff;
+  --muted: #555555;
+  --hero-padding: 3rem;
+}
+
+/* Basic body + fonts */
+body {
+  background: var(--site-bg);
+  color: #222;
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  line-height: 1.6;
+}
+
+/* Ensure Quarto/Bootstrap primary uses the cardinal color */
+:root {
+  --bs-primary: var(--cardinal);
+}
+
+/* Hero */
+.hero {
+  padding: var(--hero-padding) 0;
+  background: linear-gradient(180deg, rgba(140,21,21,0.06), rgba(0,0,0,0));
+  border-bottom: 1px solid rgba(0,0,0,0.04);
+  text-align: left;
+}
+.hero .site-title {
+  color: var(--cardinal);
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0 0 0.25rem 0;
+}
+.hero .lead {
+  color: var(--muted);
+  font-size: 1.05rem;
+  margin-bottom: 1rem;
+}
+.hero-cta .btn {
+  margin-right: 0.5rem;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--cardinal);
+  border-color: var(--cardinal);
+  color: #fff;
+  padding: 0.5rem 0.9rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.btn-outline-primary {
+  color: var(--cardinal);
+  border: 1px solid var(--cardinal);
+  background: transparent;
+  padding: 0.45rem 0.8rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+/* Quick links sidebar */
+.container aside, .container .aside {
+  background: #fafafa;
+  border: 1px solid rgba(0,0,0,0.03);
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+/* Navbar adjustments (Quarto-generated navbar uses .q-navbar) */
+.q-navbar {
+  background: var(--cardinal) !important;
+  color: #fff !important;
+}
+.q-navbar a, .q-navbar .q-nav-link {
+  color: #fff !important;
+}
+.q-navbar .q-nav-link:hover {
+  color: #fff !important;
+  opacity: 0.9;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid rgba(0,0,0,0.06);
+  padding-top: 1rem;
+  color: #666;
+}
+
+/* Utility spacing */
+.mt-4 { margin-top: 1.5rem; }
+.mt-5 { margin-top: 3rem; }
+.mb-4 { margin-bottom: 1.5rem; }
+
+/* Responsive */
+@media (max-width: 767px) {
+  .hero .site-title { font-size: 1.6rem; }
+  .hero { padding: 2rem 0; }
+}
+
+.syllabus-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 8px;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.syllabus-table th {
+  text-align: left;
+  background: #8C1515; /* Stanford Cardinal */
+  color: #fff;
+  padding: 0.6rem 0.8rem;
+}
+
+.syllabus-table td {
+  background: #f9f9f9;
+  vertical-align: top;
+  padding: 0.6rem 0.8rem;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.syllabus-table tr:nth-child(2n) td {
+  background: #f3f3f3;
+}
+
+.syllabus-table td:nth-child(1),
+.syllabus-table td:nth-child(2) {
+  font-weight: 600;
+  width: 6rem;
+}
+
+.syllabus-table td:nth-child(3) {
+  font-weight: 600;
+  color: #8C1515;
+}
+
+.syllabus-table td:nth-child(4) {
+  white-space: normal;
+  word-break: break-word;
+}
+
+/* New columns */
+.syllabus-table td:nth-child(5),
+.syllabus-table td:nth-child(6) {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  background: #fff;
+  border-left: 1px solid #eee;
+}

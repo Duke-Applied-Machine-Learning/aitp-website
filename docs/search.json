@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "AI Training Program",
+    "section": "",
+    "text": "Lectures\nSaturdays 2:00pm - 3:00pm\nSocial Sciences 139\n\n\nOffice Hours\nSaturdays 3:00pm - 4:00pm\nSocial Sciences 139\n\n\nProject Showcase\nSaturday, Oct 25, 2pm - 3pm\nWilkinson 139"
+  },
+  {
+    "objectID": "syllabus.html#overview",
+    "href": "syllabus.html#overview",
+    "title": "AI Training Program",
+    "section": "Overview:",
+    "text": "Overview:\nDuke Applied ML’s AITP (Artificial Intelligence Training Program) aims to equip undergraduate students interested in data science and machine learning with the necessary theoretical understanding and technical skills to deliver end-to-end projects.\nThe program will be quarterly-long and serve as an introductory overview of core AI concepts –– from data science, machine learning, NLP, computer vision, and LLMs.\nThe training program also involves a final project, referencing the content that you cover through the workshops.\nSuccessful completion of both the workshops and the final project will give Junior Engineers a AITP certification that allows them to work on more advanced projects in DAML as a Senior Engineer."
+  },
+  {
+    "objectID": "syllabus.html#project",
+    "href": "syllabus.html#project",
+    "title": "AI Training Program",
+    "section": "Project:",
+    "text": "Project:\nA final project (that Junior Engineers propose). For each project, Junior Engineers will work together in groups of 3-4. Each group has 3 milestones to meet for their project before presentations.\nThere will be in-person work sessions with the team following project assignment (Saturdays 3-4pm, SocSci 139)"
+  },
+  {
+    "objectID": "syllabus.html#syllabus",
+    "href": "syllabus.html#syllabus",
+    "title": "AI Training Program",
+    "section": "Syllabus",
+    "text": "Syllabus\nThe first four weeks cover foundational machine learning & statistical learning concepts, while the latter half dives into core deep learning architectures & frameworks.\nSYLLABUS NOT CURRENTLY UPDATE FOR THIS SEMESTER - WILL BE CHANGED SOON."
+  },
+  {
+    "objectID": "syllabus.html#schedule",
+    "href": "syllabus.html#schedule",
+    "title": "AI Training Program",
+    "section": "Schedule",
+    "text": "Schedule\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nDescription\nRecordings\nReadings\n\n\n\n\n1\nSat Aug 23\nWelcome!\nMeet your instructors\nLogistics\n\n\n\n\n\n2\nSat Aug 30\nHow Machines Learn\nGradient Descent & Loss functions\nBias–variance tradeoff and structural risk minimization\nHyperparameter tuning and CV\nTrain–Test Splits\nModel evaluation\nExamples: Linear & Logistic Regression, K-Nearest Neighbors, SVM and Kernels\n\nBegin research for final project\n\n\n3\nSat Sep 06\nData Science Pipeline\nCleaning (esp. missing data)\nEncodings and Curse of Dimensionality\nText processing\nImage processing\nEDA methods\nROC analysis\nPearson\n\n\n\n\n\n4\nSat Sep 13\nDimension Reduction and Clustering\nLinear dimension reduction – PCA\nManifold learning, MDS, Isomap\nSpectral clustering, t-SNE\nClustering – k-means & EM\n\nProject Proposal’s Due Sep 14, 11:59PM\n\n\n5\nSat Sep 20\nEnsemble Methods and Boosting\nDecision trees & information theory\nRandom Forest, AdaBoost, XGBoost, GAMs\n\n\n\n\n6\nSat Sep 27\nIntroduction to Deep Learning\nNeural network architectures – feed-forward, fully connected etc.\nNonlinearity – Activation functions & bias\nUniversal Approximation Theorem\nBack-Propagation\n\nEDA Analysis Due\n\n\n7\nSat Oct 04\nConvolutional Neural Networks\nConvolutional Layers & Kernels\nMax Pooling\nDesigning CNN architectures\nApplications in Computer Vision\n\n\n\n\n8\nSat Oct 11\nRecurrent Neural Networks & LSTMs\nMotivating the RNN architecture\nVanishing Gradient Problem\nLSTMs – Input, Forget, and Output gates\nApplications in NLP\n\nModel Prototype ideally done\n\n\n9\nSat Oct 18\nTransformers & LLMs\nMotivating the Transformers architecture\nSemi-Supervised Learning & Fine-Tuning\nBERT & Applications of LLMs\nLogistics\n\nFinal Project + Presentation Due\n\n\n10\nSat Oct 25\nProject Presentations\nUsual time, Wilkinson 139"
+  },
+  {
+    "objectID": "syllabus.html#suggested-pre-requisites",
+    "href": "syllabus.html#suggested-pre-requisites",
+    "title": "AI Training Program",
+    "section": "Suggested Pre-Requisites:",
+    "text": "Suggested Pre-Requisites:\nWe recommend prospective Junior Engineers to have the following programming experiences:\n\nCS101 or CS201 concurrently, or taken CS courses in high school (AP or not)\nFamiliarity to code with Python\nBasic Understanding of Linear Algebra or Multivariable Calculus"
+  },
+  {
+    "objectID": "syllabus.html#attendance",
+    "href": "syllabus.html#attendance",
+    "title": "AI Training Program",
+    "section": "Attendance:",
+    "text": "Attendance:\nSynchronously attend the workshop each week (in-person preferred, Zoom if they cannot attend the workshop in-person). If Junior Engineers miss a workshop more than 2 times without advance notice or reasonable cause, they’ll be unable to receive full points for completing the program. Reasonable causes for not attending workshops are either a) an immovable conflict during the time of the workshop or b) sickness/serious personal matters.\nThose who have permanent scheduling conflicts during the time of the workshop must notify the division leads when the training program starts, and can attend workshops asynchronously via recordings.\nDuring any missed workshop, the Junior Engineer must read the slides for that week and fill out the AITP Makeup Form on the technical content which will be a Google Form posted on Slack."
+  },
+  {
+    "objectID": "syllabus.html#notice-on-project-contribution",
+    "href": "syllabus.html#notice-on-project-contribution",
+    "title": "AI Training Program",
+    "section": "Notice on Project Contribution:",
+    "text": "Notice on Project Contribution:\nContribute meaningfully to their final project Project Managers will check in with their teams every week to monitor progress, talk about blockers, and check in regarding individual performance and participation. If a Junior Engineer is inactive for a sufficient period of time, they will be removed from their project team and AITP for that semester. At the end of the project there will be a peer evaluation of group contribution. Those who do not demonstrate meaningful contribution to the project group will not be able to receive the AITP certification.\nSuccessfully complete final deliverables Final presentation Attend final poster presentation Junior Engineers will present their work to the rest of DAML, faculty members & (potentially) recruiters at a end-of-semester project showcase Attendance is mandatory (unless there’s an immovable conflict) in order to receive credit for the project Pass a final exam Junior Engineers will complete a short final exam on AITP material A weighted score on both the exam and presentation will be calculated to determine placements into DAML Senior Engineer positions. In general, Junior Engineers who consistently attend AITP workshops every week and work 1-2 hours on their team project tend to become Senior Engineers."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Alicia",
+    "section": "",
+    "text": "A little bit about me and my life."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Alicia",
+    "section": "Education",
+    "text": "Education\nUniversity of XYZ, City | Location | Sept 20XX - June 20XX"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Alicia",
+    "section": "Experience",
+    "text": "Experience\nWorkplace | Job title | April 20XX - present :::"
+  }
+]

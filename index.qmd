@@ -1,0 +1,18 @@
+---
+title: "Alicia"
+subtitle: "Data Scientist"
+image: logos/rithvik.jpeg
+about: 
+  template: solana
+---
+
+A little bit about me and my life.
+
+## Education
+
+University of XYZ, City \| Location \| Sept 20XX - June 20XX
+
+## Experience
+
+Workplace \| Job title \| April 20XX - present
+:::
