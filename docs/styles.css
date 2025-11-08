@@ -1,106 +1,172 @@
-/* ------------------ HERO OVERRIDE (append to end of styles.css) ------------------ */
-/* Re-uses your color vars --bg and --fg; only affects hero components */
+/* ------------------ HERO: instructors horizontal + 3 TAs row ------------------ */
+/* Replace or append this block at the end of styles.css */
 
+/* Keep existing vars; provide fallbacks */
 :root {
-  /* keep your existing color variables — do not change */
   --page-max: 1100px;
   --hero-gutter: 1rem;
+  --divider: rgba(0,0,0,0.08);
+  --profile-size: 120px; /* smaller portrait size requested */
 }
 
- /* Ensure the page background stays whatever your site uses (do not flood with hero color) */
+hr {
+  box-sizing: border-box;
+  border: none;
+  height: 1px;
+  background: rgba(0,0,0,0.12);
+  width: calc(var(--page-max) - (2 * var(--hero-gutter)));
+  margin-left: calc((100% - var(--page-max)) / 2 + var(--hero-gutter));
+  margin-right: calc((100% - var(--page-max)) / 2 + var(--hero-gutter));
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+/* Ensure site bg unaffected */
 body,
 .site,
 .main-wrapper,
 .quarto-body {
-  /* Keep site background untouched here; hero will use --bg only on the left block */
   background: #ffffff !important;
   color: #111;
 }
 
-/* Keep hero aligned with other content (max width and gutter) */
+/* Hero container (unchanged alignment) */
 .hero {
   display: flex;
-  gap: 3rem;
-  align-items: center;
+  gap: 0;
+  align-items: stretch;
   max-width: var(--page-max);
   margin: 2rem auto 3rem;
   padding: 0 var(--hero-gutter);
   box-sizing: border-box;
 }
 
-/* Left colored panel only (uses your --bg and --fg variables) */
+/* Left column stays flat colored; keep as you previously set */
 .hero-left {
   flex: 2;
   background: var(--bg);
   color: var(--fg);
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  padding: 2.25rem 2.5rem;
+  border-radius: 0;
+  box-shadow: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-/* Headline and lead text inside left panel */
-.hero-left h1 {
-  font-size: 2.5rem;
-  margin: 0 0 0.5rem 0;
-  line-height: 1.05;
-}
+/* Text sizing inside left column (unchanged) */
+.hero-left h1 { font-size: 2.5rem; margin: 0 0 0.5rem 0; line-height:1.05; }
+.hero-left p { margin:0.5rem 0 0; font-size:1.05rem; max-width:60ch; color:rgba(255,255,255,0.96); }
 
-.hero-left p {
-  margin: 0.5rem 0 0;
-  font-size: 1.05rem;
-  max-width: 60ch;
-  color: rgba(255,255,255,0.95);
-}
-
-/* Right column: stacked instructor portraits and names */
+/* Right column with vertical divider */
 .hero-right {
   flex: 1;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* align children to left so grids start at same left edge */
+  justify-content: center;
+  gap: 1rem;
+  border-left: 1px solid var(--divider);
+  padding-left: 2rem;
+  box-sizing: border-box;
+}
+
+/* PROFILE (shared by instructors and TAs) */
+.profile {
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 0.75rem;
-  padding-right: 0.5rem;
-  color: inherit;
 }
 
-/* Portraits */
-.hero-right img {
-  width: 150px;
-  height: 150px;
+/* Portrait sizing and look */
+.profile img {
+  width: var(--profile-size);
+  height: var(--profile-size);
   object-fit: cover;
   border-radius: 50%;
   display: block;
-  margin-bottom: 0.25rem;
-  border: 4px solid rgba(0,0,0,0.06);
+  margin-bottom: 0.35rem;
+  border: 3px solid rgba(0,0,0,0.06);
 }
 
-/* Name under each portrait */
-.hero-right .name {
-  margin: 0;
-  font-weight: 600;
-  font-size: 1rem;
-  color: #111; /* ensure names show up dark on the white page */
+/* Bold name and role lines */
+.profile strong {
+  display: block;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0.15rem;
+  color: #111;
+  font-size: 0.98rem;
 }
 
-/* Keep other sections aligned with the same page max width */
+.profile .role {
+  display: block;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Instructors: 2 across, left-aligned */
+.instructors {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 1.25rem 1.25rem; /* row col gaps */
+  justify-content: start; /* left-align grid */
+  align-items: start;
+  margin-bottom: 0.5rem;
+}
+
+/* TAs: 3 across, left-aligned; left-most TA aligns under left-most instructor */
+.tas {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 1rem 1.25rem;
+  justify-content: start; /* align to left edge of right column */
+  align-items: start;
+  margin-top: 0.25rem;
+}
+
+/* Ensure the right column's grids don't overflow and stay tidy */
+.instructors .profile,
+.tas .profile {
+  width: calc(var(--profile-size) + 8px); /* image + small border space for consistent column widths */
+}
+
+/* --- Section headings: align with content gutter and hr --- */
 h2 {
+  box-sizing: border-box;
   font-size: 1.6rem;
-  margin: 2.5rem 0 1rem 0;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+
+  /* underline */
   border-bottom: 1px solid #111;
   padding-bottom: .25rem;
+
+  /* alignment: constrain heading container to the page max and center it; then use left gutter padding */
   max-width: var(--page-max);
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: calc((100% - var(--page-max)) / 2);
+  margin-right: calc((100% - var(--page-max)) / 2);
   padding-left: var(--hero-gutter);
   padding-right: var(--hero-gutter);
+  text-align: left;
   box-sizing: border-box;
 }
 
+/* --- Make normal content (paragraphs, lists) start at the same content gutter --- */
+.quarto-body p,
+.quarto-body ul,
+.quarto-body ol,
+.quarto-body dl {
+  box-sizing: border-box;
+  max-width: var(--page-max);
+  margin-left: calc((100% - var(--page-max)) / 2 + var(--hero-gutter));
+  margin-right: calc((100% - var(--page-max)) / 2 + var(--hero-gutter));
+  padding: 0;
+}
+
+/* Staff grid preserved / unchanged layout */
 .staff-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
@@ -113,28 +179,36 @@ h2 {
   box-sizing: border-box;
 }
 
-/* person card styles preserved: */
+/* person card styles preserved */
 .person { text-align: center; }
-.person img {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-bottom: .5rem;
-}
+.person img { width:120px; height:120px; object-fit:cover; border-radius:50%; margin-bottom:.5rem; }
 .person strong { display:block; margin-top:.25rem; }
 
-/* Responsive: stack hero on small screens */
+/* Responsive: stack hero on small screens; instructors become 2 across or 1 across depending on width,
+   TAs become 3 -> 2 -> 1 across progressively. */
 @media (max-width: 880px) {
-  .hero {
-    flex-direction: column;
-    gap: 1rem;
+  .hero { flex-direction: column; gap: 1rem; }
+
+  .hero-right {
+    border-left: none;
+    border-top: 1px solid var(--divider);
+    padding-left: 0;
+    padding-top: 1rem;
+    align-items: center; /* center on narrow screens */
   }
-  .hero-left, .hero-right {
-    width: 100%;
-    padding: 1.1rem;
-    border-radius: 10px;
+
+  /* Instructors: 2 across on medium, 1 across on narrow */
+  .instructors {
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
   }
+  @media (max-width: 520px) {
+    .instructors { grid-template-columns: repeat(1, auto); }
+    .tas { grid-template-columns: repeat(1, auto); }
+  }
+
+  .tas { grid-template-columns: repeat(3, auto); justify-content:center; gap: 0.75rem; }
+  .hero-left, .hero-right { width:100%; padding:1.1rem; border-radius:10px; }
   .hero-left h1 { font-size: 1.9rem; }
-  .hero-right img { width: 120px; height: 120px; }
+  :root { --profile-size: 100px; } /* slightly smaller on very small screens via override */
 }

@@ -6,23 +6,48 @@ css: styles.css
 
 ::: {.hero}
 ::: {.hero-left}
-# AI Training Program  
-<!-- ^ swap title if you want -->
+# AI Training Program
 
 Deep Learning is one of the most highly sought after skills in AI.  
 In this course you will learn the foundations of Deep Learning, understand how to build neural networks, and learn how to lead successful machine learning projects. You will learn about Convolutional networks, RNNs, LSTM, Adam, Dropout, BatchNorm, Xavier/He initialization, and more.  
-<!-- ^ replace paragraph with your own -->
 :::
 
 ::: {.hero-right}
-<!-- ===== INSTRUCTOR PHOTOS ===== -->
-<!-- 150×150px works; keep file in /img/ folder -->
-<img src="img/instructor1.jpg" alt="Instructor 1">
-<p class="name">Instructor Name 1</p>
 
-<img src="img/instructor2.jpg" alt="Instructor 2">
-<p class="name">Instructor Name 2</p>
-<!-- add/remove blocks as needed -->
+::: {.instructors}
+::: {.profile}
+![](logos/instructor1.jpg){width=120px}
+**Instructor Name 1**  
+<span class="role">Instructor</span>
+:::
+
+::: {.profile}
+![](logos/instructor2.jpg){width=120px}
+**Instructor Name 2**  
+<span class="role">Instructor</span>
+:::
+:::
+
+::: {.tas}
+::: {.profile}
+![](logos/ta1.jpg){width=120px}
+**TA Name 1**  
+<span class="role">TA</span>
+:::
+
+::: {.profile}
+![](logos/ta2.jpg){width=120px}
+**TA Name 2**  
+<span class="role">TA</span>
+:::
+
+::: {.profile}
+![](logos/ta3.jpg){width=120px}
+**TA Name 3**  
+<span class="role">TA</span>
+:::
+:::
+
 :::
 :::
 ------------------------------------------------------------------------
@@ -45,50 +70,6 @@ Piazza (enroll link TBD)
 ai-training@example.com  
 <!-- ^ your course email -->
 
-------------------------------------------------------------------------
-
-## Course Staff
-
-::: {.staff-grid}
-<!-- ===== INSTRUCTOR PROFILES ===== -->
-::: {.person}
-<img src="img/instructor1.jpg" alt="">
-**Prof. A. Example**  
-Professor of Computer Science  
-<!-- 1-sentence bio here -->
-:::
-
-::: {.person}
-<img src="img/instructor2.jpg" alt="">
-**Dr. B. Sample**  
-Senior Lecturer  
-<!-- 1-sentence bio here -->
-:::
-:::
-
-------------------------------------------------------------------------
-
-## Course Assistants
-
-::: {.staff-grid}
-<!-- ===== TA PROFILES ===== -->
-::: {.person}
-<img src="img/ta1.jpg" alt="">
-**John Doe**  
-CS PhD student  
-<!-- 1-sentence bio / specialization -->
-:::
-
-::: {.person}
-<img src="img/ta2.jpg" alt="">
-**Jane Roe**  
-EE PhD student  
-<!-- 1-sentence bio / specialization -->
-:::
-<!-- duplicate block for more TAs -->
-:::
-
-------------------------------------------------------------------------
 
 ## Logistics
 

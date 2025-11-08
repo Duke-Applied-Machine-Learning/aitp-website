@@ -67,7 +67,7 @@
     "href": "index.html",
     "title": "AI Training Program",
     "section": "",
-    "text": "Deep Learning is one of the most highly sought after skills in AI.\nIn this course you will learn the foundations of Deep Learning, understand how to build neural networks, and learn how to lead successful machine learning projects. You will learn about Convolutional networks, RNNs, LSTM, Adam, Dropout, BatchNorm, Xavier/He initialization, and more.\n\n\n\n\n\n\n\nInstructor Name 1\n\n\n\nInstructor Name 2"
+    "text": "Deep Learning is one of the most highly sought after skills in AI.\nIn this course you will learn the foundations of Deep Learning, understand how to build neural networks, and learn how to lead successful machine learning projects. You will learn about Convolutional networks, RNNs, LSTM, Adam, Dropout, BatchNorm, Xavier/He initialization, and more.\n\n\n\n\n Instructor Name 1\nInstructor\n\n\n Instructor Name 2\nInstructor\n\n\n\n\n TA Name 1\nTA\n\n\n TA Name 2\nTA\n\n\n TA Name 3\nTA"
   },
   {
     "objectID": "index.html#course-information",
@@ -75,20 +75,6 @@
     "title": "AI Training Program",
     "section": "Course Information",
     "text": "Course Information\nLectures\nTuesday, Thursday 1:30–2:50 pm\n\nCommunication\nPiazza (enroll link TBD)\n\nSyllabus\npdf\n\nContact\nai-training@example.com"
-  },
-  {
-    "objectID": "index.html#course-staff",
-    "href": "index.html#course-staff",
-    "title": "AI Training Program",
-    "section": "Course Staff",
-    "text": "Course Staff\n\n\n\n Prof. A. Example\nProfessor of Computer Science\n\n\n\n Dr. B. Sample\nSenior Lecturer"
-  },
-  {
-    "objectID": "index.html#course-assistants",
-    "href": "index.html#course-assistants",
-    "title": "AI Training Program",
-    "section": "Course Assistants",
-    "text": "Course Assistants\n\n\n\n John Doe\nCS PhD student\n\n\n\n Jane Roe\nEE PhD student"
   },
   {
     "objectID": "index.html#logistics",
