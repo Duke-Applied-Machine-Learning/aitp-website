@@ -13,17 +13,22 @@ In this course you will learn the foundations of Deep Learning, understand how t
 :::
 
 ::: {.hero-right}
-
 ::: {.instructors}
 ::: {.profile}
-![](logos/instructor1.jpg){width=120px}
-**Instructor Name 1**  
+![](logos/rithvik.jpeg){width=120px}
+**Rithvik Neti**  
 <span class="role">Instructor</span>
 :::
 
 ::: {.profile}
-![](logos/instructor2.jpg){width=120px}
-**Instructor Name 2**  
+![](logos/Mayur.png){width=120px}
+**Mayur Sekhar**  
+<span class="role">Instructor</span>
+:::
+
+::: {.profile}
+![](logos/Jai.jpeg){width=120px}
+**Jai Kasera**
 <span class="role">Instructor</span>
 :::
 :::
@@ -47,10 +52,8 @@ In this course you will learn the foundations of Deep Learning, understand how t
 <span class="role">TA</span>
 :::
 :::
-
 :::
 :::
-
 
 ## Course Information
 

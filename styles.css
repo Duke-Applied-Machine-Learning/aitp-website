@@ -109,7 +109,7 @@ body,
 /* Instructors: 2 across, left-aligned */
 .instructors {
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(3, auto);
   gap: 1.25rem 1.25rem; /* row col gaps */
   justify-content: start; /* left-align grid */
   align-items: start;
@@ -150,7 +150,7 @@ body,
 
   /* Instructors: 2 across on medium, 1 across on narrow */
   .instructors {
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(3, auto);
     justify-content: center;
   }
 
