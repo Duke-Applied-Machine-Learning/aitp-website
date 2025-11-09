@@ -33,7 +33,7 @@ format:
 | Project Showcase | Saturday, Oct 25, 2pm - 3pm | Wilkinson 139          |
 +------------------+-----------------------------+------------------------+
 
-### DAML AI Training Program Fall 2025 Overview
+# DAML AI Training Program Fall 2025 Overview
 
 ## Overview:
 
