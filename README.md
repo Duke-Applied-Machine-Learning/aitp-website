@@ -1,0 +1,3 @@
+This is a website for DAML's AITP Program. Check it out here! https://duke-applied-machine-learning.github.io/aitp-website/
+
+Bro we gotta get a domain name...
