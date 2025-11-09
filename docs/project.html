@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>faq – AITP</title>
+<title>Projects – AITP</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -55,7 +55,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Syllabus</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./project.html"> 
+    <a class="nav-link active" href="./project.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -91,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Recordings</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./faq.html" aria-current="page"> 
+    <a class="nav-link" href="./faq.html"> 
 <span class="menu-text">FAQ</span></a>
   </li>  
 </ul>
@@ -105,13 +105,27 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#getting-started" id="toc-getting-started" class="nav-link active" data-scroll-target="#getting-started">Getting Started:</a>
+  <ul class="collapse">
+  <li><a href="#ide" id="toc-ide" class="nav-link" data-scroll-target="#ide">IDE:</a></li>
+  <li><a href="#package-management" id="toc-package-management" class="nav-link" data-scroll-target="#package-management">Package Management:</a></li>
+  <li><a href="#version-control" id="toc-version-control" class="nav-link" data-scroll-target="#version-control">Version Control:</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="project.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">faq</h1>
+<h1 class="title">Projects</h1>
+<p class="subtitle lead">Fall 2025</p>
 </div>
 
 
@@ -128,8 +142,25 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p><br></p>
+<section id="getting-started" class="level2">
+<h2 class="anchored" data-anchor-id="getting-started">Getting Started:</h2>
+<section id="ide" class="level3">
+<h3 class="anchored" data-anchor-id="ide">IDE:</h3>
+<p>We strongly recommend VSCode. It’s well-integrated with a bunch of technologies, languages, packages, etc. If you have another environment, run it by us first.</p>
+</section>
+<section id="package-management" class="level3">
+<h3 class="anchored" data-anchor-id="package-management">Package Management:</h3>
+<p>We strongly recommend using some kind of virtual environment. It’s good practice for real-world development and you may need it already depending on the libraries you choose to use. You can decide between venvs and conda Conda https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/environments.html https://docs.conda.io/projects/conda/en/4.6.0/user-guide/tasks/manage-environments.html# Venv https://realpython.com/python-virtual-environments-a-primer/ https://docs.python.org/3/library/venv.html Setting up on VSCode: https://code.visualstudio.com/docs/python/environments <strong>Make sure everything is standardized within your group. Everyone should have the same version of Python, same version of every library, etc.</strong> See https://www.freecodecamp.org/news/python-requirementstxt-explained/</p>
+</section>
+<section id="version-control" class="level3">
+<h3 class="anchored" data-anchor-id="version-control">Version Control:</h3>
+<p>Create a GitHub repository that your group will work from. Follow these tutorials</p>
+<p>First, make a GitHub SSH key using this link: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent Then follow these tutorials to make a repo and clone https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository Then, create your own branch. If all team members work directly on the main branch, you will inevitably run into merge conflicts. It’s thus industry standard to manage a project with multiple branches. In our case, each team member will have their own branch that they push their changes to. After, you can create a pull request to merge to the main branch. If this is new to you, I highly recommend reading this tutorial on GitHub branch management: https://www.atlassian.com/git/tutorials/using-branches</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

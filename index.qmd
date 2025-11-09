@@ -8,8 +8,10 @@ css: styles.css
 ::: {.hero-left}
 # AI Training Program
 
-Deep Learning is one of the most highly sought after skills in AI.  
-In this course you will learn the foundations of Deep Learning, understand how to build neural networks, and learn how to lead successful machine learning projects. You will learn about Convolutional networks, RNNs, LSTM, Adam, Dropout, BatchNorm, Xavier/He initialization, and more.  
+**Welcome to DAML's AITP!**
+
+
+This course page is for our AITP (also known as the ML Bootcamp) at Duke. Students learn the basics of machine learning, and once passed, they receive an AITP certification that allows them to continue with our client projects. 
 :::
 
 ::: {.hero-right}
@@ -36,31 +38,30 @@ In this course you will learn the foundations of Deep Learning, understand how t
 :::
 
 
-## Course Information
+## Information
 
 **Lectures**  
-Tuesday, Thursday 1:30–2:50 pm  
+Saturdays, 2:00–3:00 pm  
 
 **Communication**  
 Slack (link to be posted)
 
 **Contact**  
-ai-training@example.com  
+jai.kasera@duke.org 
 
 ## Logistics
 
-**Prerequisites**  
-- College calculus, linear algebra, basic probability  
+**Suggested Prerequisites**  
+- Some understanding of Linear Algebra 
 - Python programming  
 
 **Grading**  
-- Problem sets 40 %  
-- Mid-term quiz 20 %  
-- Final project 40 %  
+- Attendance 10 %  
+- Final project 90 %  
 
 **Assignments**  
-- Released Thursdays, due the following Thursday 11:59 pm  
-- Late days: 6 total, max 2 per assignment
+- Check the syllabus for notes on final project milestones
+- Late days: 2 maximum
 
 <!-- NEW TA SECTION -->
 ::: {.ta-section}

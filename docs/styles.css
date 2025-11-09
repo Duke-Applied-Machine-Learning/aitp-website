@@ -134,3 +134,47 @@ body,
   gap: 1.5rem;            /* space between cards */
   flex-wrap: wrap;        /* allows wrapping on very small screens */
 }
+
+/* SYLLABUS TABLE */
+.syllabus-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 8px;           /* space between rows */
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.syllabus-table th {
+  text-align: left;
+  background: #8C1515;             /* Stanford Cardinal */
+  color: #fff;
+  padding: 0.6rem 0.8rem;
+}
+
+.syllabus-table td {
+  background: #f9f9f9;
+  vertical-align: top;
+  padding: 0.6rem 0.8rem;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.syllabus-table tr:nth-child(2n) td {
+  background: #f3f3f3;
+}
+
+.syllabus-table td:nth-child(1),
+.syllabus-table td:nth-child(2) {
+  font-weight: 600;
+  width: 6rem;
+}
+
+.syllabus-table td:nth-child(3) {
+  font-weight: 600;
+  color: #8C1515;
+}
+
+.syllabus-table td:nth-child(4) {
+  white-space: normal;
+  word-break: break-word;
+}

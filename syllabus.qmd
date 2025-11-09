@@ -64,57 +64,111 @@ SYLLABUS NOT CURRENTLY UPDATE FOR THIS SEMESTER - WILL BE CHANGED SOON.
 
 ## Schedule
 
-+--------+------------+------------------------------------+--------------------------------------------------------------------------------+------------+--------------------------------------------+
-| Week   | Date       | Topic                              | Description                                                                    | Recordings | Readings                                   |
-+========+============+====================================+================================================================================+============+============================================+
-| 1      | Sat Aug 23 | Welcome!                           | Meet your instructors\                                                         |            |                                            |
-|        |            |                                    | Logistics\                                                                     |            |                                            |
-+--------+------------+------------------------------------+--------------------------------------------------------------------------------+------------+--------------------------------------------+
-| 2      | Sat Aug 30 | How Machines Learn                 | Gradient Descent & Loss functions\                                             |            | **Begin research for final project**       |
-|        |            |                                    | Bias–variance tradeoff and structural risk minimization\                       |            |                                            |
-|        |            |                                    | Hyperparameter tuning and CV\                                                  |            |                                            |
-|        |            |                                    | Train–Test Splits\                                                             |            |                                            |
-|        |            |                                    | Model evaluation\                                                              |            |                                            |
-|        |            |                                    | *Examples:* Linear & Logistic Regression, K-Nearest Neighbors, SVM and Kernels |            |                                            |
-+--------+------------+------------------------------------+--------------------------------------------------------------------------------+------------+--------------------------------------------+
-| 3      | Sat Sep 06 | Data Science Pipeline              | Cleaning (esp. missing data)\                                                  |            |                                            |
-|        |            |                                    | Encodings and Curse of Dimensionality\                                         |            |                                            |
-|        |            |                                    | Text processing\                                                               |            |                                            |
-|        |            |                                    | Image processing\                                                              |            |                                            |
-|        |            |                                    | EDA methods\                                                                   |            |                                            |
-|        |            |                                    | ROC analysis\                                                                  |            |                                            |
-|        |            |                                    | Pearson\                                                                       |            |                                            |
-+--------+------------+------------------------------------+--------------------------------------------------------------------------------+------------+--------------------------------------------+
-| 4      | Sat Sep 13 | Dimension Reduction and Clustering | Linear dimension reduction – PCA\                                              |            | **Project Proposal's Due Sep 14, 11:59PM** |
-|        |            |                                    | Manifold learning, MDS, Isomap\                                                |            |                                            |
-|        |            |                                    | Spectral clustering, t-SNE\                                                    |            |                                            |
-|        |            |                                    | Clustering – k-means & EM                                                      |            |                                            |
-+--------+------------+------------------------------------+--------------------------------------------------------------------------------+------------+--------------------------------------------+
-| 5      | Sat Sep 20 | Ensemble Methods and Boosting      | Decision trees & information theory\                                           |            |                                            |
-|        |            |                                    | Random Forest, AdaBoost, XGBoost, GAMs                                         |            |                                            |
-+--------+------------+------------------------------------+--------------------------------------------------------------------------------+------------+--------------------------------------------+
-| 6      | Sat Sep 27 | Introduction to Deep Learning      | Neural network architectures – feed-forward, fully connected etc.\             |            | **EDA Analysis Due**                       |
-|        |            |                                    | Nonlinearity – Activation functions & bias\                                    |            |                                            |
-|        |            |                                    | Universal Approximation Theorem\                                               |            |                                            |
-|        |            |                                    | Back-Propagation                                                               |            |                                            |
-+--------+------------+------------------------------------+--------------------------------------------------------------------------------+------------+--------------------------------------------+
-| 7      | Sat Oct 04 | Convolutional Neural Networks      | Convolutional Layers & Kernels\                                                |            |                                            |
-|        |            |                                    | Max Pooling\                                                                   |            |                                            |
-|        |            |                                    | Designing CNN architectures\                                                   |            |                                            |
-|        |            |                                    | Applications in Computer Vision                                                |            |                                            |
-+--------+------------+------------------------------------+--------------------------------------------------------------------------------+------------+--------------------------------------------+
-| 8      | Sat Oct 11 | Recurrent Neural Networks & LSTMs  | Motivating the RNN architecture\                                               |            | **Model Prototype ideally done**           |
-|        |            |                                    | Vanishing Gradient Problem\                                                    |            |                                            |
-|        |            |                                    | LSTMs – Input, Forget, and Output gates\                                       |            |                                            |
-|        |            |                                    | Applications in NLP                                                            |            |                                            |
-+--------+------------+------------------------------------+--------------------------------------------------------------------------------+------------+--------------------------------------------+
-| 9      | Sat Oct 18 | Transformers & LLMs                | Motivating the Transformers architecture\                                      |            | **Final Project + Presentation Due**       |
-|        |            |                                    | Semi-Supervised Learning & Fine-Tuning\                                        |            |                                            |
-|        |            |                                    | BERT & Applications of LLMs\                                                   |            |                                            |
-|        |            |                                    | Logistics                                                                      |            |                                            |
-+--------+------------+------------------------------------+--------------------------------------------------------------------------------+------------+--------------------------------------------+
-| 10     | Sat Oct 25 | Project Presentations              | Usual time, Wilkinson 139\                                                     |            |                                            |
-+--------+------------+------------------------------------+--------------------------------------------------------------------------------+------------+--------------------------------------------+
+<table class="syllabus-table">
+  <thead>
+    <tr>
+      <th style="width:5%;">Week</th>
+      <th style="width:15%;">Date</th>
+      <th style="width:25%;">Topic</th>
+      <th style="width:45%;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Sat Aug 30</td>
+      <td>How Machines Learn</td>
+      <td>
+        Gradient Descent &amp; Loss functions<br>
+        Bias–variance tradeoff and structural risk minimization<br>
+        Hyperparameter tuning and CV<br>
+        Train–Test Splits<br>
+        Model evaluation<br>
+        <em>Examples:</em> Linear &amp; Logistic Regression, K-Nearest Neighbors, SVM and Kernels
+      </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Sat Sep 06</td>
+      <td>Data Science Pipeline</td>
+      <td>
+        Cleaning (esp. missing data)<br>
+        Encodings and Curse of Dimensionality<br>
+        Text processing<br>
+        Image processing<br>
+        EDA methods<br>
+        ROC analysis<br>
+        Pearson<br>
+        <strong>After Week 2 – Choose Your Final Project Track &amp; Team Assignment</strong>
+      </td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Sat Sep 13</td>
+      <td>Dimension Reduction and Clustering</td>
+      <td>
+        Linear dimension reduction – PCA<br>
+        Manifold learning, MDS, Isomap<br>
+        Spectral clustering, t-SNE<br>
+        Clustering – k-means &amp; EM
+      </td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Sat Sep 20</td>
+      <td>Ensemble Methods and Boosting</td>
+      <td>
+        Decision trees &amp; information theory<br>
+        Random Forest, AdaBoost, XGBoost, GAMs
+      </td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Sat Sep 27</td>
+      <td>Introduction to Deep Learning</td>
+      <td>
+        Neural network architectures – feed-forward, fully connected etc.<br>
+        Nonlinearity – Activation functions &amp; bias<br>
+        Universal Approximation Theorem<br>
+        Back-Propagation
+      </td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Sat Oct 04</td>
+      <td>Convolutional Neural Networks</td>
+      <td>
+        Convolutional Layers &amp; Kernels<br>
+        Max Pooling<br>
+        Designing CNN architectures<br>
+        Applications in Computer Vision
+      </td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Sat Oct 11</td>
+      <td>Recurrent Neural Networks &amp; LSTMs</td>
+      <td>
+        Motivating the RNN architecture<br>
+        Vanishing Gradient Problem<br>
+        LSTMs – Input, Forget, and Output gates<br>
+        Applications in NLP
+      </td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Sat Oct 18</td>
+      <td>Transformers &amp; LLMs</td>
+      <td>
+        Motivating the Transformers architecture<br>
+        Semi-Supervised Learning &amp; Fine-Tuning<br>
+        BERT &amp; Applications of LLMs<br>
+        Logistics
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## Suggested Pre-Requisites:
 

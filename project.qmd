@@ -1,0 +1,56 @@
+---
+title: "Projects"
+subtitle: "Fall 2025"
+fontsize: 12pt
+toc: true
+format: 
+  html: default
+  pdf:
+    mainfont: "Times New Roman"
+    sansfont: "Times New Roman"
+    include-in-header:
+      - text: |
+          \makeatletter
+          \def\maketitle{
+            \begin{center}
+              {\normalfont\huge\@title}
+            \end{center}
+            \vskip 1em
+            \begin{center}
+              {\normalfont\large\@subtitle}
+            \end{center}
+            \vskip 1em
+          }
+          \makeatother
+---
+
+<br>
+
+## Getting Started:
+
+### IDE: 
+
+We strongly recommend VSCode. It’s well-integrated with a bunch of technologies, languages, packages, etc. If you have another environment, run it by us first.
+
+### Package Management: 
+We strongly recommend using some kind of virtual environment. It’s good practice for real-world development and you may need it already depending on the libraries you choose to use. You can decide between venvs and conda
+Conda
+https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/environments.html 
+https://docs.conda.io/projects/conda/en/4.6.0/user-guide/tasks/manage-environments.html#
+Venv
+https://realpython.com/python-virtual-environments-a-primer/ 
+https://docs.python.org/3/library/venv.html
+Setting up on VSCode: https://code.visualstudio.com/docs/python/environments 
+**Make sure everything is standardized within your group. Everyone should have the same version of Python, same version of every library, etc.**
+See https://www.freecodecamp.org/news/python-requirementstxt-explained/ 
+
+### Version Control: 
+
+Create a GitHub repository that your group will work from. Follow these tutorials
+
+First, make a GitHub SSH key using this link: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent 
+Then follow these tutorials to make a repo and clone
+https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories
+https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+Then, create your own branch. If all team members work directly on the main branch, you will inevitably run into merge conflicts. It’s thus industry standard to manage a project with multiple branches. In our case, each team member will have their own branch that they push their changes to. After, you can create a pull request to merge to the main branch. If this is new to you, I highly recommend reading this tutorial on GitHub branch management: 
+https://www.atlassian.com/git/tutorials/using-branches
