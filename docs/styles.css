@@ -33,7 +33,6 @@ body,
   flex: 2;
   background: var(--bg);
   color: var(--fg);
-  padding: 2.25rem 2.5rem;
   border-radius: 0;
   box-shadow: none;
   display: flex;
@@ -43,16 +42,19 @@ body,
 
 /* Text sizing inside left column (unchanged) */
 .hero-left h1 {
+  background: var(--bg);
+  color: var(--fg);
   font-size: 2.5rem;
   margin: 0 0 0.5rem 0;
   line-height: 1.05;
 }
 
 .hero-left p {
+  background: var(--bg);
+  color: var(--fg);
   margin: 0.5rem 0 0;
   font-size: 1.05rem;
   max-width: 60ch;
-  color: rgba(255,255,255,0.96);
 }
 
 /* Right column with vertical divider */
