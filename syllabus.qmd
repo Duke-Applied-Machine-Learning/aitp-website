@@ -45,7 +45,7 @@ The training program also involves a **final project**, referencing the content 
 
 Successful completion of both the workshops and the final project will give Junior Engineers a AITP certification that allows them to work on more advanced projects in DAML as a Senior Engineer.
 
-## **Project:**
+## Project:
 
 A final project (that Junior Engineers propose). For each project, Junior Engineers will work together in groups of 3-4. Each group has 3 milestones to meet for their project before presentations.
 

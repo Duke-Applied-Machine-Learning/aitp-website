@@ -50,7 +50,7 @@ In this course you will learn the foundations of Deep Learning, understand how t
 
 :::
 :::
-------------------------------------------------------------------------
+
 
 ## Course Information
 
@@ -62,14 +62,9 @@ Tuesday, Thursday 1:30–2:50 pm
 Piazza (enroll link TBD)  
 <!-- ^ swap for your forum / Slack -->
 
-**Syllabus**  
-[pdf](syllabus.pdf)  
-<!-- ^ drop actual PDF or link -->
-
 **Contact**  
 ai-training@example.com  
 <!-- ^ your course email -->
-
 
 ## Logistics
 
