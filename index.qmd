@@ -16,13 +16,13 @@ In this course you will learn the foundations of Deep Learning, understand how t
 ::: {.instructors}
 ::: {.profile}
 ![](logos/rithvik.jpeg){width=120px}
-**Rithvik Neti**  
+**Rithvik Neti**
 <span class="role">Instructor</span>
 :::
 
 ::: {.profile}
 ![](logos/Mayur.png){width=120px}
-**Mayur Sekhar**  
+**Mayur Sekhar**
 <span class="role">Instructor</span>
 :::
 
@@ -32,6 +32,39 @@ In this course you will learn the foundations of Deep Learning, understand how t
 <span class="role">Instructor</span>
 :::
 :::
+:::
+:::
+
+
+## Course Information
+
+**Lectures**  
+Tuesday, Thursday 1:30–2:50 pm  
+
+**Communication**  
+Slack (link to be posted)
+
+**Contact**  
+ai-training@example.com  
+
+## Logistics
+
+**Prerequisites**  
+- College calculus, linear algebra, basic probability  
+- Python programming  
+
+**Grading**  
+- Problem sets 40 %  
+- Mid-term quiz 20 %  
+- Final project 40 %  
+
+**Assignments**  
+- Released Thursdays, due the following Thursday 11:59 pm  
+- Late days: 6 total, max 2 per assignment
+
+<!-- NEW TA SECTION -->
+::: {.ta-section}
+## Teaching Assistants
 
 ::: {.tas}
 ::: {.profile}
@@ -52,34 +85,4 @@ In this course you will learn the foundations of Deep Learning, understand how t
 <span class="role">TA</span>
 :::
 :::
-:::
-:::
-
-## Course Information
-
-**Lectures**  
-Tuesday, Thursday 1:30–2:50 pm  
-<!-- ^ change times / room -->
-
-**Communication**  
-Piazza (enroll link TBD)  
-<!-- ^ swap for your forum / Slack -->
-
-**Contact**  
-ai-training@example.com  
-<!-- ^ your course email -->
-
-## Logistics
-
-**Prerequisites**  
-- College calculus, linear algebra, basic probability  
-- Python programming  
-
-**Grading**  
-- Problem sets 40 %  
-- Mid-term quiz 20 %  
-- Final project 40 %  
-
-**Assignments**  
-- Released Thursdays, due the following Thursday 11:59 pm  
-- Late days: 6 total, max 2 per assignment  
+::: 
