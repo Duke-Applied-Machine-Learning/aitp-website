@@ -21,10 +21,8 @@ website:
         text: Syllabus
       - href: project.qmd
         text: Projects
-      - href: readings.qmd
-        text: Readings
       - href: recordings.qmd
-        text: Records
+        text: Recordings
       - href: faq.qmd
         text: FAQ
 

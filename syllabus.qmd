@@ -2,6 +2,7 @@
 title: "AI Training Program"
 subtitle: "Syllabus - Fall 2025"
 fontsize: 12pt
+toc: true
 format: 
   html: default
   pdf:
@@ -33,7 +34,11 @@ format:
 | Project Showcase | Saturday, Oct 25, 2pm - 3pm | Wilkinson 139          |
 +------------------+-----------------------------+------------------------+
 
+<br>
+
 # DAML AI Training Program Fall 2025 Overview
+
+<br>
 
 ## Overview:
 
