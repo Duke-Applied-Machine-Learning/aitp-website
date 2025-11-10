@@ -41,7 +41,7 @@ This course page is for our AITP (also known as the ML Bootcamp) at Duke. Studen
 ## Information
 
 **Lectures**  
-Saturdays, 2:00–3:00 pm  
+Saturdays, 2:00–3:00 pm. Usually in Social Sciences 139, though do check the [schedule](https://duke-applied-machine-learning.github.io/aitp-website/syllabus.html#schedule) for exceptions.
 
 **Communication**  
 Slack (link to be posted)
@@ -60,7 +60,7 @@ jai.kasera@duke.org
 - Final project 90 %  
 
 **Assignments**  
-- Check the syllabus for notes on final project milestones
+- Check the [schedule](https://duke-applied-machine-learning.github.io/aitp-website/syllabus.html#schedule) for notes on final project milestones
 - Late days: 2 maximum
 
 <!-- NEW TA SECTION -->

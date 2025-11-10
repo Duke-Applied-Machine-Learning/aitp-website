@@ -56,6 +56,27 @@
     "text": "Notice on Project Contribution:\nContribute meaningfully to their final project Project Managers will check in with their teams every week to monitor progress, talk about blockers, and check in regarding individual performance and participation. If a Junior Engineer is inactive for a sufficient period of time, they will be removed from their project team and AITP for that semester. At the end of the project there will be a peer evaluation of group contribution. Those who do not demonstrate meaningful contribution to the project group will not be able to receive the AITP certification.\nSuccessfully complete final deliverables Final presentation Attend final poster presentation Junior Engineers will present their work to the rest of DAML, faculty members & (potentially) recruiters at a end-of-semester project showcase Attendance is mandatory (unless there’s an immovable conflict) in order to receive credit for the project Pass a final exam Junior Engineers will complete a short final exam on AITP material A weighted score on both the exam and presentation will be calculated to determine placements into DAML Senior Engineer positions. In general, Junior Engineers who consistently attend AITP workshops every week and work 1-2 hours on their team project tend to become Senior Engineers."
   },
   {
+    "objectID": "project.html#getting-started",
+    "href": "project.html#getting-started",
+    "title": "Projects",
+    "section": "Getting Started:",
+    "text": "Getting Started:\n\nIDE:\nWe strongly recommend VSCode. It’s well-integrated with a bunch of technologies, languages, packages, etc. If you have another environment, run it by us first.\n\n\nPackage Management:\nWe strongly recommend using some kind of virtual environment. It’s good practice for real-world development and you may need it already depending on the libraries you choose to use. You can decide between venvs and conda Conda https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/environments.html https://docs.conda.io/projects/conda/en/4.6.0/user-guide/tasks/manage-environments.html# Venv https://realpython.com/python-virtual-environments-a-primer/ https://docs.python.org/3/library/venv.html Setting up on VSCode: https://code.visualstudio.com/docs/python/environments Make sure everything is standardized within your group. Everyone should have the same version of Python, same version of every library, etc. See https://www.freecodecamp.org/news/python-requirementstxt-explained/\n\n\nVersion Control:\nCreate a GitHub repository that your group will work from. Follow these tutorials\nFirst, make a GitHub SSH key using this link: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent Then follow these tutorials to make a repo and clone https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository Then, create your own branch. If all team members work directly on the main branch, you will inevitably run into merge conflicts. It’s thus industry standard to manage a project with multiple branches. In our case, each team member will have their own branch that they push their changes to. After, you can create a pull request to merge to the main branch. If this is new to you, I highly recommend reading this tutorial on GitHub branch management: https://www.atlassian.com/git/tutorials/using-branches"
+  },
+  {
+    "objectID": "faq.html#common-questions",
+    "href": "faq.html#common-questions",
+    "title": "FAQ",
+    "section": "Common Questions",
+    "text": "Common Questions\n\n\nWhat if I already have in-depth DS/SWE/HWE/PM experience and feel that taking another course is overkill?\nA: Those with significant technical experience may forgo the introductory track (coursework) and begin the recruitment process from the practical track (project-based “assessment”). Once you have completed the practical track and interview, you may join a project team immediately! Details on the recruitment process will be updated on the main page of this course site.\n\n\n\nCan I work on a DAML project while I work through the course?\nA: We ask that all students complete the initial onboarding before working on internal or client projects. This onboarding does equip you with a beginner project, though.\n\n\n\nWhen can I begin the advanced project interview process?\nA: Applications for the process have not yet been released. We will update you via newsletter and Slack when they do come out."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "AI Training Program",
@@ -67,14 +88,14 @@
     "href": "index.html#information",
     "title": "AI Training Program",
     "section": "Information",
-    "text": "Information\nLectures\nSaturdays, 2:00–3:00 pm\nCommunication\nSlack (link to be posted)\nContact\njai.kasera@duke.org"
+    "text": "Information\nLectures\nSaturdays, 2:00–3:00 pm. Usually in Social Sciences 139, though do check the schedule for exceptions.\nCommunication\nSlack (link to be posted)\nContact\njai.kasera@duke.org"
   },
   {
     "objectID": "index.html#logistics",
     "href": "index.html#logistics",
     "title": "AI Training Program",
     "section": "Logistics",
-    "text": "Logistics\nSuggested Prerequisites\n- Some understanding of Linear Algebra - Python programming\nGrading\n- Attendance 10 %\n- Final project 90 %\nAssignments\n- Check the syllabus for notes on final project milestones - Late days: 2 maximum"
+    "text": "Logistics\nSuggested Prerequisites\n- Some understanding of Linear Algebra - Python programming\nGrading\n- Attendance 10 %\n- Final project 90 %\nAssignments\n- Check the schedule for notes on final project milestones - Late days: 2 maximum"
   },
   {
     "objectID": "index.html#teaching-assistants",
@@ -84,24 +105,10 @@
     "text": "Teaching Assistants\n\n\n TA Name 1\nTA\n\n\n TA Name 2\nTA\n\n\n TA Name 3\nTA"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "recordings.html",
+    "href": "recordings.html",
+    "title": "AI Training Program",
     "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "faq.html#common-questions",
-    "href": "faq.html#common-questions",
-    "title": "FAQ",
-    "section": "Common Questions",
-    "text": "Common Questions\n\n\nWhat if I already have in-depth DS/SWE/HWE/PM experience and feel that taking another course is overkill?\nA: Those with significant technical experience may forgo the introductory track (coursework) and begin the recruitment process from the practical track (project-based “assessment”). Once you have completed the practical track and interview, you may join a project team immediately! Details on the recruitment process will be updated on the main page of this course site.\n\n\n\nCan I work on a DAML project while I work through the course?\nA: We ask that all students complete the initial onboarding before working on internal or client projects. This onboarding does equip you with a beginner project, though.\n\n\n\nWhen can I begin the advanced project interview process?\nA: Applications for the process have not yet been released. We will update you via newsletter and Slack when they do come out."
-  },
-  {
-    "objectID": "project.html#getting-started",
-    "href": "project.html#getting-started",
-    "title": "Projects",
-    "section": "Getting Started:",
-    "text": "Getting Started:\n\nIDE:\nWe strongly recommend VSCode. It’s well-integrated with a bunch of technologies, languages, packages, etc. If you have another environment, run it by us first.\n\n\nPackage Management:\nWe strongly recommend using some kind of virtual environment. It’s good practice for real-world development and you may need it already depending on the libraries you choose to use. You can decide between venvs and conda Conda https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/environments.html https://docs.conda.io/projects/conda/en/4.6.0/user-guide/tasks/manage-environments.html# Venv https://realpython.com/python-virtual-environments-a-primer/ https://docs.python.org/3/library/venv.html Setting up on VSCode: https://code.visualstudio.com/docs/python/environments Make sure everything is standardized within your group. Everyone should have the same version of Python, same version of every library, etc. See https://www.freecodecamp.org/news/python-requirementstxt-explained/\n\n\nVersion Control:\nCreate a GitHub repository that your group will work from. Follow these tutorials\nFirst, make a GitHub SSH key using this link: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent Then follow these tutorials to make a repo and clone https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository Then, create your own branch. If all team members work directly on the main branch, you will inevitably run into merge conflicts. It’s thus industry standard to manage a project with multiple branches. In our case, each team member will have their own branch that they push their changes to. After, you can create a pull request to merge to the main branch. If this is new to you, I highly recommend reading this tutorial on GitHub branch management: https://www.atlassian.com/git/tutorials/using-branches"
+    "text": "To be updated soon!"
   }
 ]

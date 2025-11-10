@@ -1,6 +1,6 @@
 ---
 title: "FAQ"
-subtitle: "Syllabus - Fall 2025"
+subtitle: "FAQ - Fall 2025"
 fontsize: 12pt
 toc: false
 format: 

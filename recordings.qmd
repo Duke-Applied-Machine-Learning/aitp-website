@@ -1,0 +1,27 @@
+---
+title: "AI Training Program"
+subtitle: "Recordings - Fall 2025"
+fontsize: 12pt
+toc: true
+format: 
+  html: default
+  pdf:
+    mainfont: "Times New Roman"
+    sansfont: "Times New Roman"
+    include-in-header:
+      - text: |
+          \makeatletter
+          \def\maketitle{
+            \begin{center}
+              {\normalfont\huge\@title}
+            \end{center}
+            \vskip 1em
+            \begin{center}
+              {\normalfont\large\@subtitle}
+            \end{center}
+            \vskip 1em
+          }
+          \makeatother
+---
+
+To be updated soon!
