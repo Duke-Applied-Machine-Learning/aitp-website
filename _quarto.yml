@@ -12,7 +12,7 @@ website:
   navbar:
     logo: logos/daml_logo-2.png
     logo-alt: DAML logo
-    background: "#8C1515"    # Stanford Cardinal
+    background: "#00539B" 
     foreground: "#FFFFFF"
     right:
       - href: index.qmd
