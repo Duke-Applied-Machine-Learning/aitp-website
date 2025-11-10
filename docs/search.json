@@ -91,6 +91,13 @@
     "text": "About this site"
   },
   {
+    "objectID": "faq.html#common-questions",
+    "href": "faq.html#common-questions",
+    "title": "FAQ",
+    "section": "Common Questions",
+    "text": "Common Questions\n\n\nWhat if I already have in-depth DS/SWE/HWE/PM experience and feel that taking another course is overkill?\nA: Those with significant technical experience may forgo the introductory track (coursework) and begin the recruitment process from the practical track (project-based “assessment”). Once you have completed the practical track and interview, you may join a project team immediately! Details on the recruitment process will be updated on the main page of this course site.\n\n\n\nCan I work on a DAML project while I work through the course?\nA: We ask that all students complete the initial onboarding before working on internal or client projects. This onboarding does equip you with a beginner project, though.\n\n\n\nWhen can I begin the advanced project interview process?\nA: Applications for the process have not yet been released. We will update you via newsletter and Slack when they do come out."
+  },
+  {
     "objectID": "project.html#getting-started",
     "href": "project.html#getting-started",
     "title": "Projects",
