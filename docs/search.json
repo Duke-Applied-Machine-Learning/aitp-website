@@ -32,7 +32,7 @@
     "href": "syllabus.html#schedule",
     "title": "AI Training Program",
     "section": "Schedule",
-    "text": "Schedule\n\n\n\n\nWeek\n\n\nDate\n\n\nTopic\n\n\nDescription\n\n\n\n\n\n\n1\n\n\nSat Aug 30\n\n\nHow Machines Learn\n\n\nGradient Descent & Loss functions Bias–variance tradeoff and structural risk minimization Hyperparameter tuning and CV Train–Test Splits Model evaluation Examples: Linear & Logistic Regression, K-Nearest Neighbors, SVM and Kernels\n\n\n\n\n2\n\n\nSat Sep 06\n\n\nData Science Pipeline\n\n\nCleaning (esp. missing data) Encodings and Curse of Dimensionality Text processing Image processing EDA methods ROC analysis Pearson After Week 2 – Choose Your Final Project Track & Team Assignment\n\n\n\n\n3\n\n\nSat Sep 13\n\n\nDimension Reduction and Clustering\n\n\nLinear dimension reduction – PCA Manifold learning, MDS, Isomap Spectral clustering, t-SNE Clustering – k-means & EM\n\n\n\n\n4\n\n\nSat Sep 20\n\n\nEnsemble Methods and Boosting\n\n\nDecision trees & information theory Random Forest, AdaBoost, XGBoost, GAMs\n\n\n\n\n5\n\n\nSat Sep 27\n\n\nIntroduction to Deep Learning\n\n\nNeural network architectures – feed-forward, fully connected etc. Nonlinearity – Activation functions & bias Universal Approximation Theorem Back-Propagation\n\n\n\n\n6\n\n\nSat Oct 04\n\n\nConvolutional Neural Networks\n\n\nConvolutional Layers & Kernels Max Pooling Designing CNN architectures Applications in Computer Vision\n\n\n\n\n7\n\n\nSat Oct 11\n\n\nRecurrent Neural Networks & LSTMs\n\n\nMotivating the RNN architecture Vanishing Gradient Problem LSTMs – Input, Forget, and Output gates Applications in NLP\n\n\n\n\n8\n\n\nSat Oct 18\n\n\nTransformers & LLMs\n\n\nMotivating the Transformers architecture Semi-Supervised Learning & Fine-Tuning BERT & Applications of LLMs Logistics"
+    "text": "Schedule\n\n\n\n\nWeek\n\n\nDate\n\n\nTopic\n\n\nDescription\n\n\nLocation\n\n\n\n\n\n\n1\n\n\nSat Aug 30\n\n\nHow Machines Learn\n\n\nGradient Descent & Loss functions Bias–variance tradeoff and structural risk minimization Hyperparameter tuning and CV Train–Test Splits Model evaluation Examples: Linear & Logistic Regression, K-Nearest Neighbors, SVM and Kernels\n\n\n\n\n\n\n2\n\n\nSat Sep 06\n\n\nData Science Pipeline\n\n\nCleaning (esp. missing data) Encodings and Curse of Dimensionality Text processing Image processing EDA methods ROC analysis Pearson After Week 2 – Choose Your Final Project Track & Team Assignment\n\n\n\n\n\n\n3\n\n\nSat Sep 13\n\n\nDimension Reduction and Clustering\n\n\nLinear dimension reduction – PCA Manifold learning, MDS, Isomap Spectral clustering, t-SNE Clustering – k-means & EM\n\n\n\n\n\n\n4\n\n\nSat Sep 20\n\n\nEnsemble Methods and Boosting\n\n\nDecision trees & information theory Random Forest, AdaBoost, XGBoost, GAMs\n\n\n\n\n\n\n5\n\n\nSat Sep 27\n\n\nIntroduction to Deep Learning\n\n\nNeural network architectures – feed-forward, fully connected etc. Nonlinearity – Activation functions & bias Universal Approximation Theorem Back-Propagation\n\n\n\n\n\n\n6\n\n\nSat Oct 04\n\n\nConvolutional Neural Networks\n\n\nConvolutional Layers & Kernels Max Pooling Designing CNN architectures Applications in Computer Vision\n\n\n\n\n\n\n7\n\n\nSat Oct 11\n\n\nRecurrent Neural Networks & LSTMs\n\n\nMotivating the RNN architecture Vanishing Gradient Problem LSTMs – Input, Forget, and Output gates Applications in NLP\n\n\n\n\n\n\n8\n\n\nSat Oct 18\n\n\nTransformers & LLMs\n\n\nMotivating the Transformers architecture Semi-Supervised Learning & Fine-Tuning BERT & Applications of LLMs Logistics"
   },
   {
     "objectID": "syllabus.html#suggested-pre-requisites",
@@ -88,7 +88,7 @@
     "href": "index.html#information",
     "title": "AI Training Program",
     "section": "Information",
-    "text": "Information\nLectures\nSaturdays, 2:00–3:00 pm. Usually in Social Sciences 139, though do check the schedule for exceptions.\nCommunication\nSlack (link to be posted)\nContact\njai.kasera@duke.org"
+    "text": "Information\nLectures\nSaturdays, 2:00–3:00 pm. Usually in Social Sciences 139, though do check the schedule for exceptions.\nCommunication\nSlack (link to be posted)\nContact\nmayur.sekhar@duke.org"
   },
   {
     "objectID": "index.html#logistics",
@@ -98,11 +98,11 @@
     "text": "Logistics\nSuggested Prerequisites\n- Some understanding of Linear Algebra - Python programming\nGrading\n- Attendance 10 %\n- Final project 90 %\nAssignments\n- Check the schedule for notes on final project milestones - Late days: 2 maximum"
   },
   {
-    "objectID": "index.html#teaching-assistants",
-    "href": "index.html#teaching-assistants",
+    "objectID": "index.html#project-managers",
+    "href": "index.html#project-managers",
     "title": "AI Training Program",
-    "section": "Teaching Assistants",
-    "text": "Teaching Assistants\n\n\n TA Name 1\nTA\n\n\n TA Name 2\nTA\n\n\n TA Name 3\nTA"
+    "section": "Project Managers",
+    "text": "Project Managers\n\n\n TA Name 1 PM\n\n\n TA Name 2 PM\n\n\n TA Name 3 PM"
   },
   {
     "objectID": "recordings.html",

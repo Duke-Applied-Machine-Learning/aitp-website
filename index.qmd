@@ -47,7 +47,7 @@ Saturdays, 2:00–3:00 pm. Usually in Social Sciences 139, though do check the [
 Slack (link to be posted)
 
 **Contact**  
-jai.kasera@duke.org 
+mayur.sekhar@duke.org 
 
 ## Logistics
 
@@ -65,25 +65,25 @@ jai.kasera@duke.org
 
 <!-- NEW TA SECTION -->
 ::: {.ta-section}
-## Teaching Assistants
+## Project Managers
 
 ::: {.tas}
 ::: {.profile}
 ![](logos/ta1.jpg){width=120px}
-**TA Name 1**  
-<span class="role">TA</span>
+**TA Name 1**
+<span class="role">PM</span>
 :::
 
 ::: {.profile}
 ![](logos/ta2.jpg){width=120px}
-**TA Name 2**  
-<span class="role">TA</span>
+**TA Name 2**
+<span class="role">PM</span>
 :::
 
 ::: {.profile}
 ![](logos/ta3.jpg){width=120px}
-**TA Name 3**  
-<span class="role">TA</span>
+**TA Name 3**
+<span class="role">PM</span>
 :::
 :::
 ::: 

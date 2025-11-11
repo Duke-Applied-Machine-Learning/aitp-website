@@ -71,6 +71,7 @@ SYLLABUS NOT CURRENTLY UPDATE FOR THIS SEMESTER - WILL BE CHANGED SOON.
       <th style="width:15%;">Date</th>
       <th style="width:25%;">Topic</th>
       <th style="width:45%;">Description</th>
+      <th style="width:45%;">Location</th>
     </tr>
   </thead>
   <tbody>
@@ -85,6 +86,8 @@ SYLLABUS NOT CURRENTLY UPDATE FOR THIS SEMESTER - WILL BE CHANGED SOON.
         Train–Test Splits<br>
         Model evaluation<br>
         <em>Examples:</em> Linear &amp; Logistic Regression, K-Nearest Neighbors, SVM and Kernels
+      </td>
+      <td>
       </td>
     </tr>
     <tr>
@@ -101,6 +104,8 @@ SYLLABUS NOT CURRENTLY UPDATE FOR THIS SEMESTER - WILL BE CHANGED SOON.
         Pearson<br>
         <strong>After Week 2 – Choose Your Final Project Track &amp; Team Assignment</strong>
       </td>
+      <td>
+      </td>
     </tr>
     <tr>
       <td>3</td>
@@ -112,6 +117,8 @@ SYLLABUS NOT CURRENTLY UPDATE FOR THIS SEMESTER - WILL BE CHANGED SOON.
         Spectral clustering, t-SNE<br>
         Clustering – k-means &amp; EM
       </td>
+      <td>
+      </td>
     </tr>
     <tr>
       <td>4</td>
@@ -120,6 +127,8 @@ SYLLABUS NOT CURRENTLY UPDATE FOR THIS SEMESTER - WILL BE CHANGED SOON.
       <td>
         Decision trees &amp; information theory<br>
         Random Forest, AdaBoost, XGBoost, GAMs
+      </td>
+      <td>
       </td>
     </tr>
     <tr>
@@ -132,6 +141,8 @@ SYLLABUS NOT CURRENTLY UPDATE FOR THIS SEMESTER - WILL BE CHANGED SOON.
         Universal Approximation Theorem<br>
         Back-Propagation
       </td>
+      <td>
+      </td>
     </tr>
     <tr>
       <td>6</td>
@@ -142,6 +153,8 @@ SYLLABUS NOT CURRENTLY UPDATE FOR THIS SEMESTER - WILL BE CHANGED SOON.
         Max Pooling<br>
         Designing CNN architectures<br>
         Applications in Computer Vision
+      </td>
+      <td>
       </td>
     </tr>
     <tr>
@@ -154,6 +167,8 @@ SYLLABUS NOT CURRENTLY UPDATE FOR THIS SEMESTER - WILL BE CHANGED SOON.
         LSTMs – Input, Forget, and Output gates<br>
         Applications in NLP
       </td>
+      <td>
+      </td>
     </tr>
     <tr>
       <td>8</td>
@@ -164,6 +179,8 @@ SYLLABUS NOT CURRENTLY UPDATE FOR THIS SEMESTER - WILL BE CHANGED SOON.
         Semi-Supervised Learning &amp; Fine-Tuning<br>
         BERT &amp; Applications of LLMs<br>
         Logistics
+      </td>
+      <td>
       </td>
     </tr>
   </tbody>
